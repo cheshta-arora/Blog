@@ -1,0 +1,57 @@
+.Sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    display:flex ; 
+    flex-direction: column;
+    align-items: center;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stittle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #aad9e5;
+    border-bottom: 1px solid #aad9e5;
+    font-family: 'Varela Round', sans-serif;
+    /* color: rgb(138, 209, 232); */
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(222, 145, 186);
+
+} 
+
+.photo{
+    height: 250px;
+}
+
+.items >img {
+    margin-top: 15px;
+}
+.items > p {
+    padding: 30px;
+}
+.name{
+    text-align: center;
+    color: rgb(46, 17, 116)
+}
+.ssocial{
+    margin-top: 15px;
+    width :250px ;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.sicons{
+     font-size: 16px;
+     margin-left: 15px;
+}
+
