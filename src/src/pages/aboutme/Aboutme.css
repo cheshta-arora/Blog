@@ -1,0 +1,43 @@
+.aboutme{
+    text-align: center;
+    padding: 50px;
+}
+.abouttitle{
+    border-top: 1px solid #aad9e5;
+    border-bottom: 1px solid #aad9e5;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: "Lora", sans-serif;
+    color: rgb(138, 209, 232);
+} 
+.contet{
+    font-size: 15px;
+}
+.aboutsdesc{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 50px;
+    line-height: 30px;
+   text-align: start;
+   margin: auto;
+   width: 80%; 
+}
+.photo img{
+   height: 400px;
+   width: 300px;
+  
+}
+.footer{
+    text-align: center;
+   margin-top: 10%;
+}
+.bottomlist{
+    text-align: center;
+     
+}
+.last{
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px ; 
+    line-height: 30px;
+}

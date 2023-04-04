@@ -1,0 +1,69 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display : flex ; 
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(222, 145, 186);
+    z-index: 1;
+}
+
+.topleft , .topright{
+    flex:3; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topcenter{
+    flex:6 ; 
+}
+.topicons{
+    font-size: 40px;
+    margin-right: 10px;
+    color: rgb(138, 209, 232);
+    cursor: pointer;
+}
+.topimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.toplist{
+    display: flex;
+    justify-content: center ;
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none;
+    
+}
+.toplistItems :link{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    font-weight: 400;
+    color: rgb(222, 145, 186);
+    text-decoration: none;
+}
+    
+
+/* .topListItem:hover{
+    color: grey;
+} */
+.topsearchicon{
+    font-size: 18px;
+    color: rgb(138, 209, 232);
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+@media screen and (max-width:350px) {
+    .topleft , .topright{
+        size: 20px;
+    }
+}

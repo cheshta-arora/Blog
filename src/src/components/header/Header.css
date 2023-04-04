@@ -1,0 +1,117 @@
+.header{
+    margin-top: 60px;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: rgb(138, 209, 232);
+}
+.uppertitle{
+    position: absolute;
+    top: 12%; 
+    font-size: 70px;
+
+}
+.lowertitle{
+  position: absolute;
+  top:23% ;
+  font-size: 20px;
+}
+.himg{
+    width: 100%;
+    height: 555;
+    margin-top: -300px;
+    object-fit: cover;
+}
+/* @media screen and (max-width:850px) {
+    .uppertitle{
+        position: absolute;
+        top: 10%; 
+        font-size: 70px;
+    
+    }
+    .lowertitle{
+        position: absolute;
+        top:21% ;
+        font-size: 20px;
+      }
+} */
+@media screen and (max-width:1200px) {
+    .uppertitle{
+        position: absolute;
+        top: 10%; 
+        font-size: 50px;
+    
+    }
+    .lowertitle{
+        position: absolute;
+        top:18% ;
+        font-size: 30px;
+      }
+      .himg{
+        width: 100%;
+        /* height: 400; */
+        margin-top: -140px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:850px) {
+    .uppertitle{
+        position: absolute;
+        top:9%; 
+        font-size: 30px;
+    
+    }
+    .lowertitle{
+        position: absolute;
+        top:14% ;
+        font-size: 20px;
+      }
+      .himg{
+        width: 100%;
+        /* height: 400; */
+        margin-top: -120px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:500px) {
+    .uppertitle{
+        position: absolute;
+        top: 6%; 
+        font-size: 14px;
+    
+    }
+    .lowertitle{
+        position: absolute;
+        top:8% ;
+        font-size: 10px;
+      }
+      .himg{
+        width: 100%;
+        /* height: 400; */
+        margin-top: -120px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:380px) {
+    .uppertitle{
+        position: absolute;
+        top: 8%; 
+        font-size: 14px;
+    
+    }
+    .lowertitle{
+        position: absolute;
+        top: 11% ;
+        font-size: 10px;
+      }
+      .himg{
+        width: 100%;
+        /* height: 400; */
+        margin-top: -120px;
+        object-fit: cover;
+    }
+}
